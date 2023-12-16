@@ -62,22 +62,22 @@ If you are developing OSS projects related to singing voice synthesis, you may f
 Code contribution is welcomed. Basically, please cut your branch from `develop` and make Pull Requests towards `develop`
 branch.
 
-#### Adding a format support
+### Adding a format support
 
 Please check [Format.kt](https://github.com/sdercolin/utaformatix3/blob/master/src/main/kotlin/model/Format.kt) and its
 usages.
 
-#### Adding a Language
+### Adding a Language
 
 Please check [Strings.kt](https://github.com/sdercolin/utaformatix3/blob/master/src/main/kotlin/ui/strings/Strings.kt).
 
-#### Adding a configurable process
+### Adding a configurable process
 
 Please
 check [ConfigurationEditor.kt](https://github.com/sdercolin/utaformatix3/blob/master/src/main/kotlin/ui/ConfigurationEditor.kt)
 about how the existing processes work.
 
-#### Build/Format check
+### Build/Format check
 
 Pull requests require build check to be merged. Besides normal building of the project, a format check is conducted.
 Please confirm that the `build` and `ktlintCheck` Gradle tasks pass before submitting your code.
